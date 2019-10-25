@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:title="@string/search"/>
+    <!-- In the app namespace, bcs we use Appcompat to keep things compatible with other versions and support library -->
+    <!--Show this item in action bar if there is room / otherwise in will end in overflow menu -->
+</menu>

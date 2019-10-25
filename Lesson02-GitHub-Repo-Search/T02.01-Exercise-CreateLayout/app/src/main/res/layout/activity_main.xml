@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/common_margin_or_padding"
+    android:paddingRight="@dimen/common_margin_or_padding"
+    android:paddingTop="@dimen/common_margin_or_padding">
+
+    <EditText
+        android:id="@+id/et_search_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:hint="Enter a query and then click search" />
+
+    <TextView
+        android:id="@+id/tv_url_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Your search URL will show up here when you click search"
+        android:textSize="22sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_margin_or_padding">
+        <TextView
+            android:id="@+id/tv_github_search_results_json"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make a search"
+            android:textSize="18sp"/>
+    </ScrollView>
+</LinearLayout>
