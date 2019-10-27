@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity implements
 
     // TODO (7) Override onResume and setup your broadcast receiver. Do this by calling
     // registerReceiver with the ChargingBroadcastReceiver and IntentFilter.
+    // Receiver only needs to update UI when the activity is in the foreground.
     @Override
     protected void onResume() {
         super.onResume();
