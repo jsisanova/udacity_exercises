@@ -93,6 +93,7 @@ public class NotificationUtils {
         }
         notificationManager.notify(WATER_REMINDER_NOTIFICATION_ID, notificationBuilder.build());
     }
+
     private static Action ignoreReminderAction(Context context) {
         Intent ignoreReminderIntent = new Intent(context, WaterReminderIntentService.class);
         ignoreReminderIntent.setAction(ReminderTasks.ACTION_DISMISS_NOTIFICATION);
