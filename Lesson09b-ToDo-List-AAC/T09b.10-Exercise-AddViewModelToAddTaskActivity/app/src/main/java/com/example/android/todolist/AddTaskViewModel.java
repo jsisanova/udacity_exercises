@@ -5,6 +5,7 @@ import android.arch.lifecycle.ViewModel;
 
 import com.example.android.todolist.database.AppDatabase;
 import com.example.android.todolist.database.TaskEntry;
+
 // TODO (5) Make this class extend ViewModel (not AndroidViewModel bcs we use factory)
 public class AddTaskViewModel extends ViewModel {
 
